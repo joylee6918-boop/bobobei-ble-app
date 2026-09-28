@@ -1,0 +1,9 @@
+<!-- Merge these keys into your iOS app's Info.plist. -->
+<key>NSBluetoothAlwaysUsageDescription</key>
+<string>Connect to a nearby SOSEXY/啵啵贝 BLE device that you explicitly select.</string>
+
+<!-- Optional: needed if your design must receive CoreBluetooth events in background. -->
+<key>UIBackgroundModes</key>
+<array>
+    <string>bluetooth-central</string>
+</array>
